@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Day2pt1 {
     public static void main(String[] args) throws Exception {
-        File file = new File("C:\\Users\\user\\OneDrive - University of Kent\\102. Coding things\\AOC2026\\day2-test.txt");
+        File file = new File("day2-test.txt");
         Scanner scanner = new Scanner(file);
         if (!scanner.hasNextLine()) {
             System.out.println(0);

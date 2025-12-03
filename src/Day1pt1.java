@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Day1pt1 {
 
     public static void main(String[] args) throws Exception {
-        File file = new File("C:\\Users\\user\\OneDrive - University of Kent\\102. Coding things\\AOC2026\\day1-test.txt");
+        File file = new File("day1-test.txt");
         Scanner scanner = new Scanner(file);
 
         int current = 50;
